@@ -1,0 +1,30 @@
+header {
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+
+header>button {
+    padding: 10px 40px;
+    margin: 0 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#content {
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+
+#content>div{
+
+    width: 300px;
+    height: auto;
+    margin: 30px;
+}
